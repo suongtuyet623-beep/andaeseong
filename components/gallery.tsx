@@ -17,22 +17,21 @@ export function Gallery() {
       </h2>
       <p className="mx-auto mt-4 max-w-2xl text-center text-white/60">{t.gallerySubtitle}</p>
 
-      <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3">
-        {photos.map((photo, index) => (
+      <div className="mt-12 columns-2 gap-4 sm:columns-3">
+        {photos.map((photo) => (
           <div
             key={photo.src}
-            className={`group relative aspect-[3/4] overflow-hidden rounded-3xl ring-1 ring-white/10 ${
-              index % 5 === 0 ? "sm:col-span-2 sm:aspect-[3/2]" : ""
-            }`}
+            className="group relative mb-4 break-inside-avoid overflow-hidden rounded-2xl ring-1 ring-white/10"
           >
             <Image
               src={photo.src}
               alt={photo.alt}
-              fill
+              width={photo.width}
+              height={photo.height}
               sizes="(min-width: 640px) 33vw, 50vw"
-              className="object-cover transition-transform duration-500 group-hover:scale-110"
+              className="h-auto w-full transition-transform duration-500 group-hover:scale-[1.03]"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
           </div>
         ))}
       </div>
