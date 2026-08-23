@@ -11,7 +11,7 @@ export type SocialIcon = "instagram" | "tiktok" | "youtube" | "facebook";
 export const socials: { label: string; url: string; icon: SocialIcon; color: string }[] = [
   {
     label: "Instagram",
-    url: "https://instagram.com/andaeseong",
+    url: "https://instagram.com/andaeseong_",
     icon: "instagram",
     color: "from-fuchsia-500 via-pink-500 to-orange-400",
   },
