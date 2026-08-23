@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0d0618;
+  --foreground: #f5f3ff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(236, 72, 153, 0.5);
+  color: #fff;
+}
+
+@keyframes blob-float {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(40px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-30px, 30px) scale(0.95);
+  }
+}
+
+.blob {
+  animation: blob-float 16s ease-in-out infinite;
+}
+
+.animation-delay-3000 {
+  animation-delay: -6s;
+}
+
+.animation-delay-6000 {
+  animation-delay: -12s;
+}
