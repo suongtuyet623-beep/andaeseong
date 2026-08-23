@@ -30,7 +30,7 @@ export function Nav() {
         </div>
         <a
           href="#connect"
-          className="rounded-full bg-gradient-to-r from-fuchsia-500 via-pink-500 to-orange-400 px-4 py-2 text-sm font-semibold text-white shadow-md shadow-pink-500/30 transition-transform hover:scale-105"
+          className="rounded-full bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-400 px-4 py-2 text-sm font-semibold text-white shadow-md shadow-sky-500/30 transition-transform hover:scale-105"
         >
           Theo dõi
         </a>
