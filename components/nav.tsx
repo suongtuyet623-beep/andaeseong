@@ -11,6 +11,7 @@ export function Nav() {
     { href: "#about", label: t.navAbout },
     { href: "#gallery", label: t.navGallery },
     { href: "#videos", label: t.navVideos },
+    { href: "#press", label: t.navPress },
     { href: "#connect", label: t.navConnect },
   ];
 

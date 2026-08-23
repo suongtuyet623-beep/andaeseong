@@ -120,6 +120,75 @@ export const photos = [
   { src: "/images/gallery/photo-18.jpg", alt: "andaeseong 18" },
 ];
 
+export const press = [
+  {
+    title: "소년체전 400m 계주 기록 갱신 '금메달'",
+    source: "경남일보",
+    summary: {
+      vi: "Đội Gyeongnam phá kỷ lục trung học ở tiếp sức 400m (4x100mR) tại Đại hội thể thao thiếu niên toàn quốc lần 54, giành Huy chương Vàng.",
+      ko: "제54회 전국소년체육대회 400m 계주(4x100mR)에서 경남 선수들이 중등부 최고 기록을 경신하며 금메달을 획득했습니다.",
+      en: "Team Gyeongnam broke the middle-school record in the 400m relay (4x100mR) at the 54th National Youth Sports Festival, taking gold.",
+    } satisfies Localized,
+    image: "/images/press/press-1.jpg",
+    url: "https://www.gnnews.co.kr/news/articleView.html?idxno=609832",
+  },
+  {
+    title: "진주시육상연맹, 육상꿈나무 장학금 전달",
+    source: "경남도민신문",
+    summary: {
+      vi: "Liên đoàn điền kinh thành phố Jinju trao học bổng cho 21 VĐV nhí của tỉnh, khích lệ tinh thần 'chân chính hơn là nhanh nhất'.",
+      ko: "진주시육상연맹이 관내 초중등 육상꿈나무 선수 21명에게 장학금을 전달했습니다.",
+      en: "The Jinju Athletics Federation awarded scholarships to 21 young track athletes of the region.",
+    } satisfies Localized,
+    image: "/images/press/press-2.jpg",
+    url: "http://www.gnjnews.co.kr/news/articleView.html?idxno=91957",
+  },
+  {
+    title: "파시코 소식 - 진주도동초 안대성 선수",
+    source: "네이버 블로그",
+    summary: {
+      vi: "Blog Naver của Pasico giới thiệu VĐV tương lai andaeseong — học sinh tiểu học Dodong, thành phố Jinju.",
+      ko: "파시코 블로그가 진주 도동초의 육상 유망주 안대성 선수를 소개했습니다.",
+      en: "Pasico's Naver blog features rising track star andaeseong from Dodong Elementary, Jinju.",
+    } satisfies Localized,
+    image: "/images/press/press-3.jpg",
+    url: "https://m.blog.naver.com/posyko96/223153820747",
+  },
+  {
+    title: "경남교육홍보관",
+    source: "경남교육청",
+    summary: {
+      vi: "Cổng thông tin của Sở Giáo dục tỉnh Gyeongnam đăng tải tin tức về thành tích điền kinh của học sinh tỉnh nhà.",
+      ko: "경남교육청 홍보관에 안대성 선수의 육상 성과 소식이 게재되었습니다.",
+      en: "Featured on the publicity portal of the Gyeongnam Office of Education.",
+    } satisfies Localized,
+    image: "/images/press/press-4.png",
+    url: "https://www.gne.go.kr/pr/user/bbs/BD_selectBbs.do?q_bbsSn=1509&q_bbsDocNo=1606648",
+  },
+  {
+    title: "[전국소년체전] 안대성, 초등부 최우수선수(MVP) 선정",
+    source: "경남신문",
+    summary: {
+      vi: "andaeseong được vinh danh là Cầu thủ xuất sắc nhất (MVP) bậc tiểu học tại Đại hội thể thao thiếu niên toàn quốc lần thứ 52.",
+      ko: "안대성 선수가 제52회 전국소년체육대회에서 초등부 최우수선수(MVP)로 선정되었습니다.",
+      en: "andaeseong was named MVP of the elementary division at the 52nd National Youth Sports Festival.",
+    } satisfies Localized,
+    image: "/images/press/press-5.jpg",
+    url: "https://m.knnews.co.kr/mView.php?idxno=1405198&gubun=",
+  },
+  {
+    title: "경남 육상꿈나무들, 전국대회 종합 준우승",
+    source: "경남신문",
+    summary: {
+      vi: "Đội điền kinh thiếu niên Gyeongnam đạt Á quân toàn quốc tại 'Kyobo Life Cup 2022' — mầm móng tương lai của điền kinh Hàn Quốc.",
+      ko: "2022 교보생명컵 전국초등학교 시·도대항육상경기대회에서 경남 육상팀이 종합 준우승을 차지했습니다.",
+      en: "Team Gyeongnam finished overall runner-up at the 2022 Kyobo Life Cup national elementary athletics meet.",
+    } satisfies Localized,
+    image: "/images/press/press-6.jpg",
+    url: "https://m.knnews.co.kr/mView.php?idxno=1380927",
+  },
+];
+
 export const videos = [
   {
     title: "제55회 전국소년체육대회 남중 결승 100m",

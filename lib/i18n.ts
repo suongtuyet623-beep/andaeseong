@@ -27,6 +27,10 @@ type UiStrings = {
   videosPrefix: string;
   videosAccent: string;
   videosSubtitle: string;
+  navPress: string;
+  pressPrefix: string;
+  pressAccent: string;
+  pressSubtitle: string;
   connectPrefix: string;
   connectAccent: string;
   connectSubtitle: string;
@@ -51,6 +55,10 @@ export const ui: Record<Locale, UiStrings> = {
     videosPrefix: "Video",
     videosAccent: "nổi bật",
     videosSubtitle: "Đừng quên ghé kênh để xem nhiều nội dung hơn nữa nhé!",
+    navPress: "Báo chí",
+    pressPrefix: "Báo chí",
+    pressAccent: "nói về tôi",
+    pressSubtitle: "Những bài viết về hành trình chạy đua của mình trên báo chí Hàn Quốc.",
     connectPrefix: "Kết nối",
     connectAccent: "với tôi",
     connectSubtitle: "Theo dõi mình trên các nền tảng để không bỏ lỡ nội dung mới nhất. Hẹn gặp bạn ở đó!",
@@ -73,6 +81,10 @@ export const ui: Record<Locale, UiStrings> = {
     videosPrefix: "인기",
     videosAccent: "영상",
     videosSubtitle: "유튜브 채널에서 더 많은 영상을 만나보세요!",
+    navPress: "보도",
+    pressPrefix: "언론",
+    pressAccent: "보도",
+    pressSubtitle: "저의 육상 여정을 다룬 언론 보도입니다.",
     connectPrefix: "나와",
     connectAccent: "함께하기",
     connectSubtitle: "다양한 플랫폼에서 팔로우하고 새로운 소식을 놓치지 마세요. 거기서 만나요!",
@@ -95,6 +107,10 @@ export const ui: Record<Locale, UiStrings> = {
     videosPrefix: "Featured",
     videosAccent: "Videos",
     videosSubtitle: "Visit my YouTube channel for even more content!",
+    navPress: "Press",
+    pressPrefix: "In the",
+    pressAccent: "Press",
+    pressSubtitle: "Korean media coverage of my running journey.",
     connectPrefix: "Connect",
     connectAccent: "with me",
     connectSubtitle: "Follow me on all platforms so you never miss new content. See you there!",
