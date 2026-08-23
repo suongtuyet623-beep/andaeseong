@@ -162,7 +162,7 @@ export const press = [
       ko: "경남교육청 홍보관에 안대성 선수의 육상 성과 소식이 게재되었습니다.",
       en: "Featured on the publicity portal of the Gyeongnam Office of Education.",
     } satisfies Localized,
-    image: "/images/press/press-4.png",
+    image: "/images/press/press-4.jpg",
     url: "https://www.gne.go.kr/pr/user/bbs/BD_selectBbs.do?q_bbsSn=1509&q_bbsDocNo=1606648",
   },
   {
