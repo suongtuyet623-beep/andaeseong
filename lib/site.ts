@@ -29,7 +29,7 @@ export const socials: { label: string; url: string; icon: SocialIcon; color: str
   },
   {
     label: "Facebook",
-    url: "https://facebook.com/andaeseong",
+    url: "https://facebook.com/andaeseongg",
     icon: "facebook",
     color: "from-blue-500 to-indigo-500",
   },
