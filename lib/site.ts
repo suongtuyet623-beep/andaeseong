@@ -13,19 +13,19 @@ export const socials: { label: string; url: string; icon: SocialIcon; color: str
     label: "Instagram",
     url: "https://instagram.com/andaeseong_",
     icon: "instagram",
-    color: "from-fuchsia-500 via-pink-500 to-orange-400",
+    color: "from-blue-500 via-sky-500 to-cyan-400",
   },
   {
     label: "TikTok",
     url: "https://tiktok.com/@andaeseong_",
     icon: "tiktok",
-    color: "from-cyan-400 to-fuchsia-500",
+    color: "from-cyan-400 to-blue-500",
   },
   {
     label: "YouTube",
     url: "https://youtube.com/@andaeseong",
     icon: "youtube",
-    color: "from-rose-500 to-orange-500",
+    color: "from-red-600 to-orange-500",
   },
   {
     label: "Facebook",
@@ -40,19 +40,19 @@ export const highlights = [
     title: "Sáng tạo nội dung",
     description: "Chia sẻ câu chuyện qua từng bức ảnh và thước phim.",
     emoji: "✨",
-    gradient: "from-fuchsia-500/20 to-pink-500/20",
+    gradient: "from-blue-500/20 to-cyan-500/10",
   },
   {
     title: "Hình ảnh & Video",
     description: "Tuyển chọn những khoảnh khắc đẹp nhất của mình.",
     emoji: "📸",
-    gradient: "from-orange-400/20 to-amber-300/20",
+    gradient: "from-indigo-500/20 to-sky-500/10",
   },
   {
     title: "Kết nối cộng đồng",
     description: "Luôn sẵn sàng trò chuyện và hợp tác cùng bạn.",
     emoji: "💬",
-    gradient: "from-cyan-400/20 to-violet-500/20",
+    gradient: "from-emerald-500/15 to-cyan-500/10",
   },
 ];
 

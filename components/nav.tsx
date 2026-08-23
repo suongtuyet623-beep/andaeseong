@@ -10,10 +10,10 @@ const links = [
 export function Nav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
-      <nav className="mx-auto mt-4 flex max-w-5xl items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 shadow-lg shadow-fuchsia-500/10 backdrop-blur-xl sm:px-6">
+      <nav className="mx-auto mt-4 flex max-w-5xl items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 shadow-lg shadow-sky-500/10 backdrop-blur-xl sm:px-6">
         <a
           href="#top"
-          className="bg-gradient-to-r from-fuchsia-400 via-pink-400 to-orange-300 bg-clip-text text-lg font-extrabold tracking-tight text-transparent"
+          className="bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-lg font-extrabold tracking-tight text-transparent"
         >
           @{profile.name}
         </a>

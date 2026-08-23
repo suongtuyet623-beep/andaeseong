@@ -7,7 +7,7 @@ export function Videos() {
     <section id="videos" className="relative mx-auto max-w-6xl scroll-mt-24 px-6 py-24">
       <h2 className="text-center text-3xl font-bold sm:text-4xl">
         Video{" "}
-        <span className="bg-gradient-to-r from-cyan-400 to-emerald-300 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-emerald-400 to-cyan-300 bg-clip-text text-transparent">
           nổi bật
         </span>
       </h2>
@@ -22,7 +22,7 @@ export function Videos() {
             href={video.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-cyan-500/10"
+            className="group overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-blue-500/10"
           >
             <div className="relative aspect-video overflow-hidden">
               <Image
@@ -33,13 +33,13 @@ export function Videos() {
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 grid place-items-center bg-black/30 transition-colors group-hover:bg-black/10">
-                <span className="grid h-14 w-14 place-items-center rounded-full bg-gradient-to-tr from-fuchsia-500 to-orange-400 text-white shadow-lg shadow-pink-500/40 transition-transform duration-300 group-hover:scale-110">
+                <span className="grid h-14 w-14 place-items-center rounded-full bg-gradient-to-tr from-blue-500 to-cyan-400 text-white shadow-lg shadow-sky-500/40 transition-transform duration-300 group-hover:scale-110">
                   <PlayIcon className="ml-0.5 h-6 w-6" />
                 </span>
               </div>
             </div>
             <div className="p-5">
-              <h3 className="font-semibold transition-colors group-hover:text-pink-300">
+              <h3 className="font-semibold transition-colors group-hover:text-sky-300">
                 {video.title}
               </h3>
               <p className="mt-1 text-sm text-white/60">{video.description}</p>

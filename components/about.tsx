@@ -5,7 +5,7 @@ export function About() {
     <section id="about" className="relative mx-auto max-w-5xl scroll-mt-24 px-6 py-24">
       <h2 className="text-center text-3xl font-bold sm:text-4xl">
         Giới thiệu{" "}
-        <span className="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-sky-400 to-cyan-300 bg-clip-text text-transparent">
           bản thân
         </span>
       </h2>
