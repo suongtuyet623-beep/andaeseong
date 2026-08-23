@@ -22,7 +22,7 @@ export const profile = {
     ko: "저는 안대성입니다. 한국의 육상 선수입니다.",
     en: "I'm andaeseong — a track athlete from South Korea.",
   } satisfies Localized,
-  email: "contact@andaeseong.com",
+  email: "anteson5555@gmail.com",
 };
 
 export type SocialIcon = "instagram" | "tiktok" | "youtube" | "facebook";
