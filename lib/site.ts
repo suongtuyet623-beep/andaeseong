@@ -103,7 +103,7 @@ export const photos = [
   { src: "/images/gallery/photo-1.jpg", alt: "andaeseong 1", width: 1057, height: 1400 },
   { src: "/images/gallery/photo-2.jpg", alt: "andaeseong 2", width: 1400, height: 778 },
   { src: "/images/gallery/photo-3.jpg", alt: "andaeseong 3", width: 1000, height: 563 },
-  { src: "/images/gallery/photo-4-v4.jpg", alt: "andaeseong 4", width: 1050, height: 1400 },
+  { src: "/images/gallery/photo-4-v5.jpg", alt: "andaeseong 4", width: 1050, height: 1400 },
   { src: "/images/gallery/photo-5.jpg", alt: "andaeseong 5", width: 1400, height: 788 },
   { src: "/images/gallery/photo-6.jpg", alt: "andaeseong 6", width: 1050, height: 1400 },
   { src: "/images/gallery/photo-7.jpg", alt: "andaeseong 7", width: 1020, height: 572 },
