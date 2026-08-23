@@ -100,12 +100,24 @@ export const highlights = [
 ];
 
 export const photos = [
-  { src: "/images/gallery/photo-1.jpg", alt: "Khoảnh khắc 1" },
-  { src: "/images/gallery/photo-2.jpg", alt: "Khoảnh khắc 2" },
-  { src: "/images/gallery/photo-3.jpg", alt: "Khoảnh khắc 3" },
-  { src: "/images/gallery/photo-4.jpg", alt: "Khoảnh khắc 4" },
-  { src: "/images/gallery/photo-5.jpg", alt: "Khoảnh khắc 5" },
-  { src: "/images/gallery/photo-6.jpg", alt: "Khoảnh khắc 6" },
+  { src: "/images/gallery/photo-1.jpg", alt: "andaeseong 1" },
+  { src: "/images/gallery/photo-2.jpg", alt: "andaeseong 2" },
+  { src: "/images/gallery/photo-3.jpg", alt: "andaeseong 3" },
+  { src: "/images/gallery/photo-4.jpg", alt: "andaeseong 4" },
+  { src: "/images/gallery/photo-5.jpg", alt: "andaeseong 5" },
+  { src: "/images/gallery/photo-6.jpg", alt: "andaeseong 6" },
+  { src: "/images/gallery/photo-7.jpg", alt: "andaeseong 7" },
+  { src: "/images/gallery/photo-8.jpg", alt: "andaeseong 8" },
+  { src: "/images/gallery/photo-9.jpg", alt: "andaeseong 9" },
+  { src: "/images/gallery/photo-10.jpg", alt: "andaeseong 10" },
+  { src: "/images/gallery/photo-11.jpg", alt: "andaeseong 11" },
+  { src: "/images/gallery/photo-12.jpg", alt: "andaeseong 12" },
+  { src: "/images/gallery/photo-13.jpg", alt: "andaeseong 13" },
+  { src: "/images/gallery/photo-14.jpg", alt: "andaeseong 14" },
+  { src: "/images/gallery/photo-15.jpg", alt: "andaeseong 15" },
+  { src: "/images/gallery/photo-16.jpg", alt: "andaeseong 16" },
+  { src: "/images/gallery/photo-17.jpg", alt: "andaeseong 17" },
+  { src: "/images/gallery/photo-18.jpg", alt: "andaeseong 18" },
 ];
 
 export const videos = [

@@ -19,7 +19,7 @@ export function Hero() {
       <div className="relative mx-auto flex max-w-5xl flex-col items-center px-6 pt-32 pb-20 text-center">
         <div className="rounded-full bg-gradient-to-tr from-blue-600 via-sky-500 to-cyan-400 p-1 shadow-xl shadow-sky-500/40">
           <Image
-            src="/images/avatar.jpg"
+            src="/images/avatar.png"
             alt={`Ảnh đại diện ${profile.name}`}
             width={160}
             height={160}
