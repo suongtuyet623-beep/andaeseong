@@ -10,7 +10,7 @@ export function Press() {
   return (
     <section id="press" className="relative mx-auto max-w-6xl scroll-mt-24 px-6 py-24">
       <h2 className="text-center text-3xl font-bold sm:text-4xl">
-        {t.pressPrefix}{" "}
+        {t.pressPrefix ? `${t.pressPrefix} ` : ""}
         <span className="bg-gradient-to-r from-amber-300 to-emerald-300 bg-clip-text text-transparent">
           {t.pressAccent}
         </span>
