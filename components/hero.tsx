@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import { profile, socials } from "@/lib/site";
 import { SocialButtons } from "@/components/social-buttons";
+import { useI18n } from "@/components/language-provider";
 
 export function Hero() {
+  const { t, locale } = useI18n();
+
   return (
     <section id="top" className="relative flex min-h-screen items-center overflow-hidden">
       <div className="pointer-events-none absolute inset-0">
@@ -23,27 +28,27 @@ export function Hero() {
           />
         </div>
         <span className="mt-6 rounded-full border border-sky-400/30 bg-sky-500/10 px-4 py-1 text-sm font-medium text-sky-300">
-          {profile.tagline}
+          {profile.tagline[locale]}
         </span>
         <h1 className="mt-5 text-5xl font-extrabold tracking-tight sm:text-7xl">
           <span className="bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
             {profile.name}
           </span>
         </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/70">{profile.bio}</p>
+        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/70">{profile.bio[locale]}</p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#gallery"
             className="rounded-full bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-400 px-7 py-3 font-semibold text-white shadow-lg shadow-sky-600/40 transition-transform hover:scale-105"
           >
-            Xem bộ sưu tập
+            {t.heroViewGallery}
           </a>
           <a
             href="#videos"
             className="rounded-full border border-white/15 bg-white/5 px-7 py-3 font-semibold text-white/90 backdrop-blur transition-colors hover:bg-white/10"
           >
-            Xem video
+            {t.heroViewVideos}
           </a>
         </div>
 
@@ -54,7 +59,7 @@ export function Hero() {
 
       <a
         href="#about"
-        aria-label="Cuộn xuống"
+        aria-label="Scroll down"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/50 transition-colors hover:text-white"
       >
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-7 w-7 animate-bounce">

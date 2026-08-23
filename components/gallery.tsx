@@ -1,18 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import { photos } from "@/lib/site";
+import { useI18n } from "@/components/language-provider";
 
 export function Gallery() {
+  const { t } = useI18n();
+
   return (
     <section id="gallery" className="relative mx-auto max-w-6xl scroll-mt-24 px-6 py-24">
       <h2 className="text-center text-3xl font-bold sm:text-4xl">
-        Bộ sưu tập{" "}
+        {t.galleryPrefix}{" "}
         <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-          hình ảnh
+          {t.galleryAccent}
         </span>
       </h2>
-      <p className="mx-auto mt-4 max-w-2xl text-center text-white/60">
-        Những khoảnh khắc mình muốn lưu giữ và chia sẻ với bạn.
-      </p>
+      <p className="mx-auto mt-4 max-w-2xl text-center text-white/60">{t.gallerySubtitle}</p>
 
       <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3">
         {photos.map((photo, index) => (
