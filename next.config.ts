@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   basePath: "/andaeseong",
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "i.ytimg.com",
+      },
+    ],
   },
 };
 
