@@ -17,7 +17,7 @@ export const socials: { label: string; url: string; icon: SocialIcon; color: str
   },
   {
     label: "TikTok",
-    url: "https://tiktok.com/@andaeseong",
+    url: "https://tiktok.com/@andaeseong_",
     icon: "tiktok",
     color: "from-cyan-400 to-fuchsia-500",
   },
